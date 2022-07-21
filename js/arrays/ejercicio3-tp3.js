@@ -14,8 +14,8 @@ for (let i = 0; i < 50; i++) {
   pruebaDado2.push(dado2);
 }
 
-document.write("<br> resultado de dado 1 " + pruebaDado1);
-document.write("<br> resultado de dado 2 " + pruebaDado2);
+document.write("<br> resultado de dado 1= " + pruebaDado1);
+document.write("<br> resultado de dado 2= " + pruebaDado2);
 document.write("<br>resultado de la suma " + sumas);
 
 document.write(`<table> 
