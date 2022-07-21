@@ -1,18 +1,4 @@
-/* 6- Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma :
+// 3- Solicitar por pantalla al usuario ingresar el valor de los lados de un rectángulo, 
+// luego crear una función para calcular su perímetro y mostrarlo por pantalla.
 
-1
-22
-333
-4444
-55555
-666666
-…….
-*/
-
-for(let i = 1; i <= 30; i++){
-    
-    for(let repeticion = 0; repeticion < i; repeticion++){
-        document.write(i);
-    }
-    document.write('<br>')
-  };
+// La fórmula del perímetro  es p = 2*(a +b)

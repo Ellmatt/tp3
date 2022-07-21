@@ -1,15 +1,3 @@
-/* Realiza un script que pida números hasta que se pulse “cancelar”. 
-Si no es un número deberá indicarse con un «alert» y seguir pidiendo números. 
-Al salir con “cancelar” deberá indicarse la suma total de los números introducidos. */
-do {
-  let numero1 = parseInt(prompt("ingrese un numero para sumar"));
-  
-  
-  
-  if (numero1 >= 0 ){
-    
-    document.write((numero1 + numero1))
-  } else {
-    alert('la opcion ingresada no es un numero')
-  }
-} while (confirm("desea ingresar un numero?"));
+// 1- Escribir el código de una función a la que se pasa como parámetro un número entero y 
+// devuelve como resultado una cadena de texto que indica si el número es par o impar. 
+// Mostrar por pantalla el resultado devuelto por la función.

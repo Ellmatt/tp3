@@ -1,18 +1,3 @@
-/*7- Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario (no mayor de 50)  de la siguiente forma : (suponiendo que indica 30).
-
-303030303030303030303030303030303030303030303030303030303030
-2929292929292929292929292929292929292929292929292929292929
-28282828282828282828282828282828282828282828282828282828
-…..
-333
-22
-1
-*/
-
-for(let i = 30; i >= 1; i--){
-    
-    for(let repeticion = i; repeticion >= 1; repeticion--){
-        document.write(i);
-    }
-    document.write('<br>')
-  };
+// 4- Escriba un script que muestre la tabla de multiplicar de un número ingresado por pantalla, 
+// la creación de la tabla debe ser realizada con una función y 
+// mostrar solo los resultados del 1 al 10 del número elegido por el usuario.
